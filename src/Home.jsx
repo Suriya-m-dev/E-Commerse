@@ -50,7 +50,7 @@ function Home() {
           </button>
         </form>
       </div>
-      {/* <div>hi</div> */}
+      <div>hi hello</div>
     </>
   );
 }
