@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <ProductProvider>
-      <Router basename="/E-Commerse">
+      <Router basename="/E-Commerse"> {/*Enter here repository name*/}
         <div className="App">
           <Routes>
             <Route path="/" element={<Home />} />
